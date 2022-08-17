@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  ColorFactory.cpp
+  ProducerFactory.cpp
+  ShapeFactory.cpp
+  main.cpp
+  正在生成代码...
   工厂模式-抽象工厂图形.vcxproj -> C:\Users\xu\source\设计模式\Debug\工厂模式-抽象工厂图形.exe

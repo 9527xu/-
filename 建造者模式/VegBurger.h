@@ -1,0 +1,12 @@
+#pragma once
+#include"Burger.h"
+class VegBurger:public Burger//ËØÊ³ºº±¤
+{
+public:
+
+	// Í¨¹ý Burger ¼Ì³Ð
+	virtual string name() override;
+
+	virtual double price() override;
+
+};

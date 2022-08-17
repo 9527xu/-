@@ -1,0 +1,14 @@
+﻿  Bottle.cpp
+  Burger.cpp
+  BurgerFactory.cpp
+  ChickenBurger.cpp
+  Coke.cpp
+  ColdDrink.cpp
+  ColdDrinkFactory.cpp
+  main.cpp
+  Meal.cpp
+  Pepsi.cpp
+  VegBurger.cpp
+  Wrapper.cpp
+  正在生成代码...
+  建造者模式+工厂模式.vcxproj -> C:\Users\xu\source\设计模式\x64\Debug\建造者模式+工厂模式.exe

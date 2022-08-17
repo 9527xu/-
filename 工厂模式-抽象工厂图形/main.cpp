@@ -40,4 +40,5 @@ int main()
 	delete circle;
 	delete colorFactory;
 	delete shapeFactory;
+	return 0;
 }

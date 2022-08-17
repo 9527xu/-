@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工产模式-简单工厂图形", "工产模式\工产模式.vcxproj", "{038CAC4D-A68C-4718-9D57-DBC9CAE0CFCD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工产模式1-图形", "工产模式\工产模式.vcxproj", "{038CAC4D-A68C-4718-9D57-DBC9CAE0CFCD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工厂模式-抽象工厂图形", "工厂模式-抽象工厂图形\工厂模式-抽象工厂图形.vcxproj", "{45DE89FE-3797-4CC5-B370-76F9E2BF72D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "建造者模式", "建造者模式\建造者模式.vcxproj", "{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "中介模式-聊天室", "中介模式-聊天室\中介模式-聊天室.vcxproj", "{5EA84B69-C93D-444C-942A-430DED581880}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "建造者模式+工厂模式", "建造者模式+工厂模式\建造者模式+工厂模式.vcxproj", "{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,30 @@ Global
 		{45DE89FE-3797-4CC5-B370-76F9E2BF72D6}.Release|x64.Build.0 = Release|x64
 		{45DE89FE-3797-4CC5-B370-76F9E2BF72D6}.Release|x86.ActiveCfg = Release|Win32
 		{45DE89FE-3797-4CC5-B370-76F9E2BF72D6}.Release|x86.Build.0 = Release|Win32
+		{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}.Debug|x64.ActiveCfg = Debug|x64
+		{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}.Debug|x64.Build.0 = Debug|x64
+		{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}.Debug|x86.Build.0 = Debug|Win32
+		{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}.Release|x64.ActiveCfg = Release|x64
+		{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}.Release|x64.Build.0 = Release|x64
+		{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}.Release|x86.ActiveCfg = Release|Win32
+		{8D5AE9D8-C622-4F9B-AB46-3B04BD550BB1}.Release|x86.Build.0 = Release|Win32
+		{5EA84B69-C93D-444C-942A-430DED581880}.Debug|x64.ActiveCfg = Debug|x64
+		{5EA84B69-C93D-444C-942A-430DED581880}.Debug|x64.Build.0 = Debug|x64
+		{5EA84B69-C93D-444C-942A-430DED581880}.Debug|x86.ActiveCfg = Debug|Win32
+		{5EA84B69-C93D-444C-942A-430DED581880}.Debug|x86.Build.0 = Debug|Win32
+		{5EA84B69-C93D-444C-942A-430DED581880}.Release|x64.ActiveCfg = Release|x64
+		{5EA84B69-C93D-444C-942A-430DED581880}.Release|x64.Build.0 = Release|x64
+		{5EA84B69-C93D-444C-942A-430DED581880}.Release|x86.ActiveCfg = Release|Win32
+		{5EA84B69-C93D-444C-942A-430DED581880}.Release|x86.Build.0 = Release|Win32
+		{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}.Debug|x64.ActiveCfg = Debug|x64
+		{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}.Debug|x64.Build.0 = Debug|x64
+		{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}.Debug|x86.ActiveCfg = Debug|Win32
+		{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}.Debug|x86.Build.0 = Debug|Win32
+		{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}.Release|x64.ActiveCfg = Release|x64
+		{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}.Release|x64.Build.0 = Release|x64
+		{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}.Release|x86.ActiveCfg = Release|Win32
+		{8DDEE330-4E05-4FDB-96D7-32C1533C2BD3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
