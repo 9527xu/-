@@ -142,18 +142,22 @@
     <ClInclude Include="..\工产模式\Circle.h" />
     <ClInclude Include="..\工产模式\Rectangle.h" />
     <ClInclude Include="..\工产模式\Shape.h" />
-    <ClInclude Include="..\工产模式\ShapeFactory.h" />
     <ClInclude Include="..\工产模式\Triangle.h" />
     <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="Color.h" />
+    <ClInclude Include="ColorFactory.h" />
     <ClInclude Include="Green.h" />
     <ClInclude Include="Read.h" />
+    <ClInclude Include="ShapeFactory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\工产模式\Circle.cpp" />
     <ClCompile Include="..\工产模式\Rectangle.cpp" />
     <ClCompile Include="..\工产模式\Triangle.cpp" />
+    <ClCompile Include="ColorFactory.cpp" />
+    <ClCompile Include="Green.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Read.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

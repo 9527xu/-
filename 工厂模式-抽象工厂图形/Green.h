@@ -2,8 +2,7 @@
 #include"Color.h"
 class Green:public Color
 {
-	virtual void fill()
-	{
-		cout << "fill Green" << endl;
-	}
+	virtual ~Green(){}
+	virtual void fill();
+
 };

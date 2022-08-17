@@ -36,10 +36,13 @@
     <ClInclude Include="Green.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\工产模式\ShapeFactory.h">
+    <ClInclude Include="AbstractFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="AbstractFactory.h">
+    <ClInclude Include="ColorFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -54,6 +57,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Read.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Green.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

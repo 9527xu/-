@@ -3,6 +3,7 @@
 #include"Circle.h"
 #include"Rectangle.h"
 #include"Triangle.h"
+#include"Color.h"
 class ShapeFactory
 {
 public:
@@ -22,7 +23,7 @@ public:
 		}
 		return nullptr;
 	}
-	
+	Color* getColor(string colorType);
 
 };
 
