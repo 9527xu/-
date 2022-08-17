@@ -3,6 +3,7 @@
 #include"Circle.h"
 #include"Rectangle.h"
 #include"Triangle.h"
+
 class ShapeFactory
 {
 public:
@@ -22,6 +23,7 @@ public:
 		}
 		return nullptr;
 	}
+	
 	
 
 };

@@ -3,6 +3,7 @@
 using namespace std;
 class Color
 {
+public:
 	virtual void fill()=0;
 	virtual ~Color(){}
 	

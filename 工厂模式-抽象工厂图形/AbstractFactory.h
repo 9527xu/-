@@ -4,6 +4,6 @@
 class AbstractFactory
 {
 public:
-	virtual Color* getColor(string colorType);
-	//virtual Shape* getShape(string shapeType);
+	virtual Color* getColor(string colorType)=0;
+	virtual Shape* getShape(string colorType)=0;
 };

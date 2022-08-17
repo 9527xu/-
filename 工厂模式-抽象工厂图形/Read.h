@@ -3,8 +3,10 @@
 class Read:public Color
 {
 public:
-	virtual void fill()
+	virtual void fill();
+	
+	virtual~Read()
 	{
-		cout << "fill Read" << endl;
+
 	}
 };

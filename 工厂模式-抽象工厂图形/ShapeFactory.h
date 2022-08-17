@@ -3,26 +3,13 @@
 #include"Circle.h"
 #include"Rectangle.h"
 #include"Triangle.h"
-class ShapeFactory
+#include"AbstractFactory.h"
+class ShapeFactory:public AbstractFactory
 {
 public:
-	Shape* getShape(string shapeType)
-	{
-		if (shapeType == "CIRCLE")
-		{
-			return new Circle;
-		}
-		else if (shapeType == "TRIANGLE")
-		{
-			return new Triangle;
-		}
-		else if (shapeType == "RECTANGLE")
-		{
-			return new Rectangle;
-		}
-		return nullptr;
-	}
+	virtual Shape* getShape(string shapeType)override;
 	
+	virtual Color* getColor(string colorType)override { return nullptr; }
 
 };
 

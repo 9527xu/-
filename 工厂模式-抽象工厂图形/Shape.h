@@ -20,6 +20,7 @@
 简单工厂类只适用于稳定的类型，但是对数据库类型，网络协议更新迭代慢的违背一下也是无可厚非的
 */
 #include<iostream>
+
 using namespace std;
 class Shape
 {

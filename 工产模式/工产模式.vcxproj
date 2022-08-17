@@ -24,7 +24,7 @@
     <ProjectGuid>{038cac4d-a68c-4718-9d57-dbc9cae0cfcd}</ProjectGuid>
     <RootNamespace>工产模式</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>工产模式-简单工厂图形</ProjectName>
+    <ProjectName>工产模式1-图形</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
