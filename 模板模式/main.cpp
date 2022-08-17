@@ -5,6 +5,7 @@ int main()
 {
 	Game* footballGame = new Football();
 	footballGame->paly();
+
 	Game* snakesGame = new Snakes;
 	snakesGame->paly();
 }
