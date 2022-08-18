@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "代理模式", "代理模�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "适配器模式", "适配器模式\适配器模式.vcxproj", "{8FC9F4E8-B495-4BE9-A254-C25AAE7C1671}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "状态模式", "状态模式\状态模式.vcxproj", "{057C051A-B821-4665-B502-5786A6EA1201}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{8FC9F4E8-B495-4BE9-A254-C25AAE7C1671}.Release|x64.Build.0 = Release|x64
 		{8FC9F4E8-B495-4BE9-A254-C25AAE7C1671}.Release|x86.ActiveCfg = Release|Win32
 		{8FC9F4E8-B495-4BE9-A254-C25AAE7C1671}.Release|x86.Build.0 = Release|Win32
+		{057C051A-B821-4665-B502-5786A6EA1201}.Debug|x64.ActiveCfg = Debug|x64
+		{057C051A-B821-4665-B502-5786A6EA1201}.Debug|x64.Build.0 = Debug|x64
+		{057C051A-B821-4665-B502-5786A6EA1201}.Debug|x86.ActiveCfg = Debug|Win32
+		{057C051A-B821-4665-B502-5786A6EA1201}.Debug|x86.Build.0 = Debug|Win32
+		{057C051A-B821-4665-B502-5786A6EA1201}.Release|x64.ActiveCfg = Release|x64
+		{057C051A-B821-4665-B502-5786A6EA1201}.Release|x64.Build.0 = Release|x64
+		{057C051A-B821-4665-B502-5786A6EA1201}.Release|x86.ActiveCfg = Release|Win32
+		{057C051A-B821-4665-B502-5786A6EA1201}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
