@@ -5,8 +5,10 @@ class Read:public Color
 public:
 	virtual void fill();
 	
+
 	virtual~Read()
 	{
 
-	}
+	 }
+	
 };

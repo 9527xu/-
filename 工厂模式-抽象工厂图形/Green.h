@@ -3,8 +3,10 @@
 
 class Green:public Color
 {
+
 public:
 	virtual void fill();
 	
 	virtual ~Green(){}
+
 };

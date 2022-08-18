@@ -1,5 +1,6 @@
 #pragma once
 #include"AbstractFactory.h"
+
 class ColorFactory:public AbstractFactory
 {
 public:
@@ -10,7 +11,5 @@ public:
 private:
 
 };
-
-
 
 

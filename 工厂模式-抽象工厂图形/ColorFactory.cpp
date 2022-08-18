@@ -13,7 +13,8 @@
 	 }
 	return nullptr;
 }
- Shape* ColorFactory::getShape(string colorType)
+ Shape* ColorFactory::getShape(string shapeType)
  {
 	 return nullptr;
  }
+

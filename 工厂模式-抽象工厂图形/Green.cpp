@@ -4,3 +4,4 @@ void Green::fill()
 {
 	cout << "fill green" << endl;
 }
+

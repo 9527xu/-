@@ -1,10 +1,12 @@
-﻿  Burger.cpp
+﻿  Bottle.cpp
+  Burger.cpp
   ChickenBurger.cpp
   Coke.cpp
   ColdDrink.cpp
+  main.cpp
   Meal.cpp
   Pepsi.cpp
   VegBurger.cpp
-  main.cpp
+  Wrapper.cpp
   正在生成代码...
-  建造者模式.vcxproj -> C:\Users\xu\source\设计模式\x64\Debug\建造者模式.exe
+  建造者模式.vcxproj -> C:\Users\admin\source\repos\o\x64\Debug\建造者模式.exe

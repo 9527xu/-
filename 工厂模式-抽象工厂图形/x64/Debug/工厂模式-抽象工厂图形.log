@@ -1,6 +1,11 @@
-﻿  Circle.cpp
-  Rectangle.cpp
+﻿  Rectangle.cpp
   Triangle.cpp
+  Circle.cpp
+  ColorFactory.cpp
+  Green.cpp
   main.cpp
+  ProducerFactory.cpp
+  Read.cpp
+  ShapeFactory.cpp
   正在生成代码...
   工厂模式-抽象工厂图形.vcxproj -> C:\Users\admin\source\repos\o\x64\Debug\工厂模式-抽象工厂图形.exe
