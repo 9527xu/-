@@ -4,7 +4,7 @@
 int main()
 {
 	
-	Context *context= new Context;
+	Context *context= new Context;//使用指针避免变量的浅拷贝。操作的是同一对象
 	AbstractState*startState = new StartState;
 	startState->doAction(context);
 	context->getState()->getStateInfo();
