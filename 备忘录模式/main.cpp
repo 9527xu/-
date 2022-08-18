@@ -11,7 +11,6 @@ int main()
 	originator.saveStateToTaker();
 	originator.setState("ÎÒÔÚĞ´4");
 	originator.saveStateToTaker();
-	cout<<originator.getState(1);
-	
+	cout<<originator.getState();
 	return 0;
 }
