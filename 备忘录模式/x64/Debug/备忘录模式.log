@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  CareTaker.cpp
+  main.cpp
+  Originator.cpp
+  Taker.cpp
+  正在生成代码...
   备忘录模式.vcxproj -> C:\Users\admin\source\repos\o\x64\Debug\备忘录模式.exe
