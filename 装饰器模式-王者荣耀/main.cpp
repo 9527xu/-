@@ -3,8 +3,7 @@
 #include"InitNormalAttack.h"
 int main()
 {
-	NormalAttack* initAttack = new InitNormalAttack(50);
-	initAttack->attack();
-	NormalAttackDecorator* normalAttackDecorator = new PoisonNormalAttackDecorator(initAttack);
+	
+	NormalAttackDecorator* normalAttackDecorator = new PoisonNormalAttackDecorator(new InitNormalAttack(50));
 	normalAttackDecorator->attack();
 }
