@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工产模式1-图形", "工产模式\工产模式.vcxproj", "{038CAC4D-A68C-4718-9D57-DBC9CAE0CFCD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工产模式简单工厂", "工产模式\工产模式.vcxproj", "{038CAC4D-A68C-4718-9D57-DBC9CAE0CFCD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工厂模式-抽象工厂图形", "工厂模式-抽象工厂图形\工厂模式-抽象工厂图形.vcxproj", "{45DE89FE-3797-4CC5-B370-76F9E2BF72D6}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "状态模式-马里奥", "状态模式-马里奥\状态模式-马里奥.vcxproj", "{29E26CB5-CB23-458D-8087-714B35DD204B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "策略者模式-AI指挥官", "策略者模式-AI指挥官\策略者模式-AI指挥官.vcxproj", "{8270B0CC-35BE-4521-B3F2-AF8A45E8324E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工厂模式-生产鼠标", "工厂模式-生产鼠标\工厂模式-生产鼠标.vcxproj", "{739504B3-9E95-4DD1-9A39-86EE49555DC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,14 @@ Global
 		{8270B0CC-35BE-4521-B3F2-AF8A45E8324E}.Release|x64.Build.0 = Release|x64
 		{8270B0CC-35BE-4521-B3F2-AF8A45E8324E}.Release|x86.ActiveCfg = Release|Win32
 		{8270B0CC-35BE-4521-B3F2-AF8A45E8324E}.Release|x86.Build.0 = Release|Win32
+		{739504B3-9E95-4DD1-9A39-86EE49555DC4}.Debug|x64.ActiveCfg = Debug|x64
+		{739504B3-9E95-4DD1-9A39-86EE49555DC4}.Debug|x64.Build.0 = Debug|x64
+		{739504B3-9E95-4DD1-9A39-86EE49555DC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{739504B3-9E95-4DD1-9A39-86EE49555DC4}.Debug|x86.Build.0 = Debug|Win32
+		{739504B3-9E95-4DD1-9A39-86EE49555DC4}.Release|x64.ActiveCfg = Release|x64
+		{739504B3-9E95-4DD1-9A39-86EE49555DC4}.Release|x64.Build.0 = Release|x64
+		{739504B3-9E95-4DD1-9A39-86EE49555DC4}.Release|x86.ActiveCfg = Release|Win32
+		{739504B3-9E95-4DD1-9A39-86EE49555DC4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
