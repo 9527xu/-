@@ -1,7 +1,8 @@
-﻿  Logitech.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(工厂模式-生产鼠标.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Logitech.cpp
   LogitechFactory.cpp
   main.cpp
   Razer.cpp
   RazerFactory.cpp
   正在生成代码...
-  工厂模式-生产鼠标.vcxproj -> C:\Users\xu\source\设计模式\x64\Debug\工厂模式-生产鼠标.exe
+  工厂模式-生产鼠标.vcxproj -> C:\Users\xu\source\设计模式\x64\Debug\工厂模式工产方法-生产鼠标.exe

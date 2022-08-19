@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{739504b3-9e95-4dd1-9a39-86ee49555dc4}</ProjectGuid>
-    <RootNamespace>工厂模式生产鼠标</RootNamespace>
+    <ProjectGuid>{7a5ce490-6fc9-4134-adaa-09eb08b680b7}</ProjectGuid>
+    <RootNamespace>桥接模式跨平台应用开发</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>工厂模式工产方法-生产鼠标</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,19 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Logitech.h" />
-    <ClInclude Include="LogitechFactory.h" />
-    <ClInclude Include="Mouse.h" />
-    <ClInclude Include="MouseFactory.h" />
-    <ClInclude Include="Razer.h" />
-    <ClInclude Include="RazerFactory.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Linux.h" />
+    <ClInclude Include="Mac.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Vedio.h" />
+    <ClInclude Include="Windows.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Logitech.cpp" />
-    <ClCompile Include="LogitechFactory.cpp" />
+    <ClCompile Include="Linux.cpp" />
+    <ClCompile Include="Mac.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Razer.cpp" />
-    <ClCompile Include="RazerFactory.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Vedio.cpp" />
+    <ClCompile Include="Windows.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
