@@ -1,2 +1,4 @@
-﻿  DecelerateNormalAttackDecorator.cpp
+﻿  PoisonNormalAttackDecorator.cpp
+  main.cpp
+  正在生成代码...
   装饰模式-王者荣耀2.vcxproj -> C:\Users\xu\source\设计模式\x64\Debug\装饰模式-王者荣耀2.exe

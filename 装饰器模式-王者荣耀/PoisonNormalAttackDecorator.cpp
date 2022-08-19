@@ -7,5 +7,5 @@ PoisonNormalAttackDecorator::PoisonNormalAttackDecorator(NormalAttack* normalAtt
 void PoisonNormalAttackDecorator::attack()
 {
 	normalAttack_->attack();
-	cout << "¸½¼Ó" << buf_ << "buf";
+	cout << "¸½¼Ó" << buf_ << "buf"<<endl;
 }
