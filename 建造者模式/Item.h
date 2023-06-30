@@ -3,6 +3,7 @@
 #include"Packing.h"
 using namespace std;
 //建造者模式关心的是组合，比如有肉汉堡，素汉堡，百事，可乐。它们之间两两配对形成不同的组合
+//变与不变分离。变:组合方式，不变产品
 class Item//某单个食品的基本属性
 {
 public:

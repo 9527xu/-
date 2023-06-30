@@ -9,4 +9,5 @@
   VegBurger.cpp
   Wrapper.cpp
   正在生成代码...
-  建造者模式.vcxproj -> C:\Users\admin\source\repos\o\x64\Debug\建造者模式.exe
+  LINK : 没有找到 D:\source\设计模式\x64\Debug\建造者模式.exe 或上一个增量链接没有生成它；正在执行完全链接
+  建造者模式.vcxproj -> D:\source\设计模式\x64\Debug\建造者模式.exe
