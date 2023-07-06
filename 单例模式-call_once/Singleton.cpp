@@ -4,15 +4,11 @@ Singleton*Singleton::mSingleton = nullptr;
 Singleton::Deletor Singleton::mDeletor;
 Singleton* Singleton::instance()
 {
-	if (mSingleton == nullptr)
-	{
-		static std::once_flag flag;
-		std::call_once(flag, []
-			{
-				mSingleton = new Singleton();
-			});
-		
-	}
+	static std::once_flag flag;
+	std::call_once(flag, []
+		{
+			mSingleton = new Singleton();
+		});
 	return mSingleton;
 }
 
